@@ -1,5 +1,4 @@
-import React from 'react';
-aimport React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { ThemeContext } from './ThemeProvider';
 
 const LocalThemedBox = () => {
@@ -37,17 +36,6 @@ return(
         {/* Write code below this line */}
         <p id="local-themed-text-container" className={'txt-'+localTheme}>hello</p>
         <button id="local-theme-toggler" onClick={localThemefn} className={`btn btn-${localTheme} txt-${localTheme}`}>{localBtn}</button>
-    </div>
-)
-}
-
-export { LocalThemedBox }
-const LocalThemedBox = () => {
-
-return(
-    <div style={{width:'200px',height:'200px',border:'2px solid green'}} id="local-themed-box">
-        {/* Write code below this line */}
-        
     </div>
 )
 }
